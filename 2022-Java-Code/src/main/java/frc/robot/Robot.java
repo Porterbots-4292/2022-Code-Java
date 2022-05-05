@@ -21,6 +21,7 @@ public class Robot extends TimedRobot {
 
   private RobotContainer m_robotContainer;
 
+  // Drivetrain subsystem
   public static Drivetrain m_drivetrain = new Drivetrain();
 
   //! I am following a tutorial that is a little bit out-dated, I don't think that having the controller be inside of the robot
